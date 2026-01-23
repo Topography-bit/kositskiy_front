@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="d-flex justify-content-center align-items-center min-vh-100">
+        <div class="card shadow p-4">
+            <form>
+                <h1 class="display-6 text-center mb-3">Калькулятор</h1>
+                <div class="d-flex gap-2 mb-3">
+                    <input class="form-control" id="num1" type="number", placeholder="Число 1" />
+                    <input class="form-control" id="num2" type="number", placeholder="Число 2" />
+                </div>
+                <div class="d-flex justify-content-center mt-3 gap-3 mb-3">
+                    <button class="btn btn-outline-primary" type="button" id="plus">+</button>
+                    <button class="btn btn-outline-primary" type="button" id="minus">-</button>
+                    <button class="btn btn-outline-primary" type="button" id="multiply">x</button>
+                    <button class="btn btn-outline-primary" type="button" id="div">/</button>
+                </div>
+                <div class="d-grid">
+                    <button type="button" class="btn btn-primary mb-3" id="calc">Посчитать</button>
+                </div>
+                <div>
+                    <input class="form-control" id="res" type="text" placeholder="Результат..." readonly>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
